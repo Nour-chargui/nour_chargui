@@ -242,15 +242,15 @@ Personal engineering portfolio — projects, skills, and contact hub deployed on
 ## Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nour-chargui/Nour-chargui/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nour-chargui/Nour-chargui/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Nour-chargui/Nour-chargui/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nour-chargui/Nour-chargui/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nour-chargui/Nour-chargui/output/github-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Nour-chargui/Nour-chargui/output/github-snake-dark.svg">
 </picture>
 
 <details>
 <summary>Setup contribution snake</summary>
 
-Create `.github/workflows/snake.yml` in a repo named after your username, then enable GitHub Actions. See [Platane/snake](https://github.com/Platane/snake).
+This repo uses [Platane/snk](https://github.com/Platane/snk). Enable Actions, run **Generate Snake**, and the SVG appears on the `output` branch.
 
 </details>
 
