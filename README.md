@@ -222,11 +222,17 @@ Personal engineering portfolio — projects, skills, and contact hub deployed on
 
 ---
 
-## GitHub Trophies
+## GitHub Contribution Graph
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nour-chargui&theme=darkhub&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
-</p>
+<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nour-chargui&theme=github-compact&hide_border=true" alt="Contribution Graph"/> </p>
+
+---
+
+---
+
+## Profile Summary Cards
+
+<p align="center"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nour-chargui&theme=github_dark" /> </p>
 
 ---
 
