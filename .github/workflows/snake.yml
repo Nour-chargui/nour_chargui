@@ -7,34 +7,24 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-<<<<<<< HEAD
     permissions:
       contents: write
-      actions: read
-    steps:
-      - uses: actions/checkout@v4
-=======
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate snake SVG
-        uses: Platane/snk@v3
-        id: snake
-        with:
-          github_user_name: Nour-chargui
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->>>>>>> 6286bdb (fixing)
-
-      - uses: platane/snake@v3
+        uses: platane/snk@v3
         id: snake
         with:
           github_user_name: Nour-chargui
@@ -42,7 +32,8 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
