@@ -5,15 +5,34 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+<<<<<<< HEAD
     permissions:
       contents: write
       actions: read
     steps:
       - uses: actions/checkout@v4
+=======
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: Nour-chargui
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+>>>>>>> 6286bdb (fixing)
 
       - uses: platane/snake@v3
         id: snake
