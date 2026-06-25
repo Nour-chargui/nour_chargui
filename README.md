@@ -225,10 +225,8 @@ Personal engineering portfolio — projects, skills, and contact hub deployed on
 ## GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nourchargui&theme=darkhub&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Nour-chargui&theme=darkhub&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies"/>
 </p>
-
-> Replace `nourchargui` with your GitHub username.
 
 ---
 
@@ -279,10 +277,12 @@ notes: "Edit this block every week to keep your profile fresh."
 
 | Certification | Issuer | Year | Status |
 |---------------|--------|------|--------|
-| *CompTIA Security+* *(planned)* | CompTIA | — | In progress |
-| *AWS Cloud Practitioner* *(planned)* | Amazon Web Services | — | Planned |
+| *CompTIA Security+* *(planned)* | CompTIA | — | Planned |
+| *AWS Cloud Practitioner* *(planned)* | Amazon Web Services | — | In progress |
+| *AWS Solution Architect* *(planned)* | Amazon Web Services | — | In progress |
+| *RHCSA* *(planned)* | RedHat | — | In progress |
+| *RHCSE* *(planned)* | RedHat | — | In progress |
 | *Google Cybersecurity Certificate* *(planned)* | Google / Coursera | — | Planned |
-| *Your certification here* | Issuer | 20XX | Earned |
 
 ---
 
@@ -312,18 +312,6 @@ notes: "Edit this block every week to keep your profile fresh."
 
 ---
 
-## Blog / LinkedIn Articles
-
-| Title | Platform | Date | Link |
-|-------|----------|------|------|
-| *Why DevSecOps matters for early-career engineers* | LinkedIn | — | [Read →](#) |
-| *My first CI/CD pipeline with GitHub Actions* | LinkedIn | — | [Read →](#) |
-| *Docker basics: what I learned as a student* | Blog / Dev.to | — | [Read →](#) |
-| *Building a security-minded portfolio* | Technical writeup | — | [Read →](#) |
-
-> Replace placeholders as you publish. Consistent writing signals depth beyond code.
-
----
 
 ## Visitor Counter
 
@@ -336,7 +324,7 @@ notes: "Edit this block every week to keep your profile fresh."
 ## Let's Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/your-profile"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/nour-chargui-098870223/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://nour-portfolio-sepia.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="https://github.com/nourchargui"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
